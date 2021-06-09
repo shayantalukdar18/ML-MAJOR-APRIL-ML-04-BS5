@@ -6,3 +6,4 @@ ip = st.text_input("Enter the message [The result will be 0 or 1 where 0 = 'Nega
 op = model.predict([ip])
 if st.button('Predict'):
   st.title(op[0])
+ 
